@@ -1,0 +1,22 @@
+{
+  "name": "static-pages-renderer",
+  "version": "0.0.0",
+  "description": "Soon",
+  "main": "index.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/lionel87/static-pages-renderer.git"
+  },
+  "keywords": [
+    "static"
+  ],
+  "author": "László BULIK",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/lionel87/static-pages-renderer/issues"
+  },
+  "homepage": "https://github.com/lionel87/static-pages-renderer#readme"
+}
