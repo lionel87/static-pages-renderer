@@ -1,5 +1,3 @@
 # Static Pages Renderer
 
-A cool package arrives here soon.
-
-
+All purpose static pages renderer.
