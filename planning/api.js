@@ -29,8 +29,8 @@ function staticPages(controllers = []) {
     return fn;
 }
 
-const worker = staticPages([() => { }]);
+const worker = staticPages([() => { throw new Error(`error`); }]);
 
 const input = [{ d: 1 }, { d: 2 }];
 
-worker(input).then(d => d.forEach(d => console.log(d)), console.error).then(() => worker.finalize()).catch(console.error);
+worker(input).then(d => d.forEach(d => console.log(d)), e => console.error(e.stack)).then(() => worker.finalize()).catch(console.error);
