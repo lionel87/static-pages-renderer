@@ -1,0 +1,6 @@
+controllersPattern: controllers/*.js
+controllers:
+  - alma
+  - [korte, barack]
+  - test: d => d.id.matches(/alma2/)
+    controller: alma2

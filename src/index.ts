@@ -5,4 +5,8 @@
  * Released under the MPL-2.0 License.
  */
 
-import { series, parallel, branch, createWithContext } from 'tque';
+import { series, createWithContext } from 'tque';
+
+export async function staticPages({ input, controllers, controllerUtils,  }) {
+    createWithContext(controllerUtils || {}, series(controllers || []));
+}
