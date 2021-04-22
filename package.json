@@ -11,7 +11,7 @@
     "url": "git+https://github.com/lionel87/static-pages-renderer.git"
   },
   "keywords": [
-    "all purpose",
+    "all-purpose",
     "static",
     "pages",
     "generator",
@@ -19,7 +19,17 @@
     "markdown",
     "twig",
     "render",
-    "cli"
+    "cli",
+    "markdown",
+    "yaml",
+    "json",
+    "twig",
+    "pug",
+    "jade",
+    "ejs",
+    "nunjucks",
+    "underscore",
+    "handlebars"
   ],
   "author": "László BULIK",
   "license": "MPL-2.0",
